@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/Trabalho/processamentoTB_isim_beh.exe" -prj "E:/Trabalho/processamentoTB_beh.prj" "work.processamentoTB" 

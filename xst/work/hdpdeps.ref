@@ -1,0 +1,12 @@
+V3 7
+FL E:/Trabalho/memoria.vhd 2016/11/06.16:59:07 P.20131013
+EN work/memoria 1478488617 FL E:/Trabalho/memoria.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/memoria/Behavioral 1478488618 \
+      FL E:/Trabalho/memoria.vhd EN work/memoria 1478488617
+FL E:/Trabalho/processamento.vhd 2016/11/07.01:16:29 P.20131013
+EN work/processamento 1478488619 FL E:/Trabalho/processamento.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/processamento/Behavioral 1478488620 \
+      FL E:/Trabalho/processamento.vhd EN work/processamento 1478488619 \
+      CP work/memoria

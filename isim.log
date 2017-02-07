@@ -1,0 +1,1470 @@
+ISim log file
+Running: E:\Trabalho\processamentoTB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/Trabalho/processamentoTB_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Mois‚s, on host DESKTOP-6MDHEG2.
+INFO:Security:15a - A feature for ISIM was found but is for an older version.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+License file does not support this version.
+Feature:       ISIM
+Application version > License version: 2013.10 > 2011.03
+License path:  C:/.Xilinx\xilinx13suite.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-21,126
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+at 10225 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10235 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10245 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run all
+at 10225 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10235 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10245 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 12815 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+Stopped at time : 27861880 ns : File "E:/Trabalho/processamentoTB.vhd" Line 102
+# run all
+Stopped at time : 40662625 ns : File "E:/Trabalho/processamentoTB.vhd" Line 104
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Mois‚s, on host DESKTOP-6MDHEG2.
+INFO:Security:15a - A feature for ISIM was found but is for an older version.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+License file does not support this version.
+Feature:       ISIM
+Application version > License version: 2013.10 > 2011.03
+License path:  C:/.Xilinx\xilinx13suite.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-21,126
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# restart
+# step
+Simulator is doing circuit initialization process.
+Stopped at time : 0 fs : File "E:/Trabalho/processamentoTB.vhd" Line 102
+# run 1.00us
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/processamentoTB.vhd" Line 104
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/processamentoTB.vhd" Line 105
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/processamento.vhd" Line 96
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/processamento.vhd" Line 101
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/processamento.vhd" Line 124
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/processamento.vhd" Line 125
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/processamento.vhd" Line 126
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/processamento.vhd" Line 142
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/processamento.vhd" Line 143
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/processamento.vhd" Line 144
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/processamento.vhd" Line 145
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/processamento.vhd" Line 155
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/processamento.vhd" Line 156
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/processamento.vhd" Line 158
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/processamento.vhd" Line 162
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/memoria.vhd" Line 54
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/memoria.vhd" Line 57
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/memoria.vhd" Line 54
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/memoria.vhd" Line 55
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/memoria.vhd" Line 57
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/memoria.vhd" Line 54
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/memoria.vhd" Line 57
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/memoria.vhd" Line 54
+# step
+Stopped at time : 7005 ns : File "E:/Trabalho/memoria.vhd" Line 57
+# step
+Stopped at time : 7010 ns : File "E:/Trabalho/processamentoTB.vhd" Line 102
+# step
+Stopped at time : 7010 ns : File "E:/Trabalho/processamentoTB.vhd" Line 103
+# step
+Stopped at time : 7010 ns : File "E:/Trabalho/processamento.vhd" Line 96
+# step
+Stopped at time : 7010 ns : File "E:/Trabalho/processamento.vhd" Line 101
+# step
+Stopped at time : 7010 ns : File "E:/Trabalho/processamento.vhd" Line 124
+# step
+Stopped at time : 7010 ns : File "E:/Trabalho/processamento.vhd" Line 125
+# step
+Stopped at time : 7010 ns : File "E:/Trabalho/processamento.vhd" Line 126
+# step
+Stopped at time : 7010 ns : File "E:/Trabalho/processamento.vhd" Line 127
+# step
+Stopped at time : 7010 ns : File "E:/Trabalho/processamento.vhd" Line 134
+# step
+Stopped at time : 7010 ns : File "E:/Trabalho/processamento.vhd" Line 135
+# step
+Stopped at time : 7010 ns : File "E:/Trabalho/processamento.vhd" Line 136
+# step
+Stopped at time : 7010 ns : File "E:/Trabalho/processamento.vhd" Line 137
+# step
+Stopped at time : 7010 ns : File "E:/Trabalho/processamento.vhd" Line 138
+# step
+Stopped at time : 7010 ns : File "E:/Trabalho/processamento.vhd" Line 139
+# step
+Stopped at time : 7010 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# run 1.00us
+# run 1.00us
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 0.20us
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# step
+Stopped at time : 7330 ns : File "E:/Trabalho/processamentoTB.vhd" Line 102
+# step
+Stopped at time : 7330 ns : File "E:/Trabalho/processamentoTB.vhd" Line 103
+# step
+Stopped at time : 7330 ns : File "E:/Trabalho/processamento.vhd" Line 96
+# step
+Stopped at time : 7330 ns : File "E:/Trabalho/processamento.vhd" Line 101
+# step
+Stopped at time : 7330 ns : File "E:/Trabalho/processamento.vhd" Line 124
+# step
+Stopped at time : 7330 ns : File "E:/Trabalho/processamento.vhd" Line 125
+# step
+Stopped at time : 7330 ns : File "E:/Trabalho/processamento.vhd" Line 126
+# step
+Stopped at time : 7330 ns : File "E:/Trabalho/processamento.vhd" Line 127
+# step
+Stopped at time : 7330 ns : File "E:/Trabalho/processamento.vhd" Line 131
+# step
+Stopped at time : 7330 ns : File "E:/Trabalho/processamento.vhd" Line 132
+# step
+Stopped at time : 7330 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7330 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7330 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7330 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/processamentoTB.vhd" Line 104
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/processamentoTB.vhd" Line 105
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/processamento.vhd" Line 96
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/processamento.vhd" Line 101
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/processamento.vhd" Line 124
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/processamento.vhd" Line 125
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/processamento.vhd" Line 126
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/processamento.vhd" Line 142
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/processamento.vhd" Line 143
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/processamento.vhd" Line 144
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/processamento.vhd" Line 145
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/processamento.vhd" Line 155
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/processamento.vhd" Line 156
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/processamento.vhd" Line 158
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/processamento.vhd" Line 162
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/memoria.vhd" Line 54
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/memoria.vhd" Line 57
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/memoria.vhd" Line 54
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/memoria.vhd" Line 55
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/memoria.vhd" Line 57
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/memoria.vhd" Line 54
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/memoria.vhd" Line 57
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/memoria.vhd" Line 54
+# step
+Stopped at time : 7335 ns : File "E:/Trabalho/memoria.vhd" Line 57
+# step
+Stopped at time : 7340 ns : File "E:/Trabalho/processamentoTB.vhd" Line 102
+# step
+Stopped at time : 7340 ns : File "E:/Trabalho/processamentoTB.vhd" Line 103
+# step
+Stopped at time : 7340 ns : File "E:/Trabalho/processamento.vhd" Line 96
+# step
+Stopped at time : 7340 ns : File "E:/Trabalho/processamento.vhd" Line 101
+# step
+Stopped at time : 7340 ns : File "E:/Trabalho/processamento.vhd" Line 124
+# step
+Stopped at time : 7340 ns : File "E:/Trabalho/processamento.vhd" Line 125
+# step
+Stopped at time : 7340 ns : File "E:/Trabalho/processamento.vhd" Line 126
+# step
+Stopped at time : 7340 ns : File "E:/Trabalho/processamento.vhd" Line 127
+# step
+Stopped at time : 7340 ns : File "E:/Trabalho/processamento.vhd" Line 134
+# step
+Stopped at time : 7340 ns : File "E:/Trabalho/processamento.vhd" Line 135
+# step
+Stopped at time : 7340 ns : File "E:/Trabalho/processamento.vhd" Line 136
+# step
+Stopped at time : 7340 ns : File "E:/Trabalho/processamento.vhd" Line 137
+# step
+Stopped at time : 7340 ns : File "E:/Trabalho/processamento.vhd" Line 138
+# step
+Stopped at time : 7340 ns : File "E:/Trabalho/processamento.vhd" Line 139
+# step
+Stopped at time : 7340 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7340 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7340 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7340 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7345 ns : File "E:/Trabalho/processamentoTB.vhd" Line 104
+# run 5 ns
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/processamentoTB.vhd" Line 104
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/processamentoTB.vhd" Line 105
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/processamento.vhd" Line 96
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/processamento.vhd" Line 101
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/processamento.vhd" Line 124
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/processamento.vhd" Line 125
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/processamento.vhd" Line 126
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/processamento.vhd" Line 142
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/processamento.vhd" Line 143
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/memoria.vhd" Line 54
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/memoria.vhd" Line 57
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/memoria.vhd" Line 54
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/memoria.vhd" Line 55
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/memoria.vhd" Line 57
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/memoria.vhd" Line 54
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/memoria.vhd" Line 57
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/memoria.vhd" Line 54
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/memoria.vhd" Line 57
+# step
+Stopped at time : 7355 ns : File "E:/Trabalho/memoria.vhd" Line 61
+# step
+Stopped at time : 7360 ns : File "E:/Trabalho/processamentoTB.vhd" Line 102
+# step
+Stopped at time : 7360 ns : File "E:/Trabalho/processamentoTB.vhd" Line 103
+# step
+Stopped at time : 7360 ns : File "E:/Trabalho/processamento.vhd" Line 96
+# step
+Stopped at time : 7360 ns : File "E:/Trabalho/processamento.vhd" Line 101
+# step
+Stopped at time : 7360 ns : File "E:/Trabalho/processamento.vhd" Line 124
+# step
+Stopped at time : 7360 ns : File "E:/Trabalho/processamento.vhd" Line 125
+# step
+Stopped at time : 7360 ns : File "E:/Trabalho/processamento.vhd" Line 126
+# step
+Stopped at time : 7360 ns : File "E:/Trabalho/processamento.vhd" Line 127
+# step
+Stopped at time : 7360 ns : File "E:/Trabalho/processamento.vhd" Line 131
+# step
+Stopped at time : 7360 ns : File "E:/Trabalho/processamento.vhd" Line 132
+# step
+Stopped at time : 7360 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7360 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7360 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7360 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# step
+Stopped at time : 7365 ns : File "E:/Trabalho/processamentoTB.vhd" Line 104
+# step
+Stopped at time : 7365 ns : File "E:/Trabalho/processamentoTB.vhd" Line 105
+# step
+Stopped at time : 7365 ns : File "E:/Trabalho/processamento.vhd" Line 96
+# step
+Stopped at time : 7365 ns : File "E:/Trabalho/processamento.vhd" Line 101
+# step
+Stopped at time : 7365 ns : File "E:/Trabalho/processamento.vhd" Line 124
+# step
+Stopped at time : 7365 ns : File "E:/Trabalho/processamento.vhd" Line 125
+# step
+Stopped at time : 7365 ns : File "E:/Trabalho/processamento.vhd" Line 126
+# step
+Stopped at time : 7365 ns : File "E:/Trabalho/processamento.vhd" Line 142
+# step
+Stopped at time : 7365 ns : File "E:/Trabalho/processamento.vhd" Line 143
+# step
+Stopped at time : 7365 ns : File "E:/Trabalho/processamento.vhd" Line 144
+# step
+Stopped at time : 7365 ns : File "E:/Trabalho/processamento.vhd" Line 145
+# step
+Stopped at time : 7365 ns : File "E:/Trabalho/processamento.vhd" Line 155
+# step
+Stopped at time : 7365 ns : File "E:/Trabalho/processamento.vhd" Line 156
+# step
+Stopped at time : 7365 ns : File "E:/Trabalho/processamento.vhd" Line 158
+# step
+Stopped at time : 7365 ns : File "E:/Trabalho/processamento.vhd" Line 159
+# step
+Stopped at time : 7365 ns : File "E:/Trabalho/processamento.vhd" Line 162
+# step
+Stopped at time : 7365 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+# run 5 ns
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Mois‚s, on host DESKTOP-6MDHEG2.
+INFO:Security:15a - A feature for ISIM was found but is for an older version.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+License file does not support this version.
+Feature:       ISIM
+Application version > License version: 2013.10 > 2011.03
+License path:  C:/.Xilinx\xilinx13suite.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-21,126
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+at 10225 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10235 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10245 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Mois‚s, on host DESKTOP-6MDHEG2.
+INFO:Security:15a - A feature for ISIM was found but is for an older version.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+License file does not support this version.
+Feature:       ISIM
+Application version > License version: 2013.10 > 2011.03
+License path:  C:/.Xilinx\xilinx13suite.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-21,126
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+at 10225 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10235 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10245 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Mois‚s, on host DESKTOP-6MDHEG2.
+INFO:Security:15a - A feature for ISIM was found but is for an older version.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+License file does not support this version.
+Feature:       ISIM
+Application version > License version: 2013.10 > 2011.03
+License path:  C:/.Xilinx\xilinx13suite.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-21,126
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Mois‚s, on host DESKTOP-6MDHEG2.
+INFO:Security:15a - A feature for ISIM was found but is for an older version.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+License file does not support this version.
+Feature:       ISIM
+Application version > License version: 2013.10 > 2011.03
+License path:  C:/.Xilinx\xilinx13suite.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-21,126
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+at 10225 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10235 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10245 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 1.00us
+# run 1.00us
+at 12815 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 1.00us
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Mois‚s, on host DESKTOP-6MDHEG2.
+INFO:Security:15a - A feature for ISIM was found but is for an older version.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+License file does not support this version.
+Feature:       ISIM
+Application version > License version: 2013.10 > 2011.03
+License path:  C:/.Xilinx\xilinx13suite.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-21,126
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run all
+at 10225 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10235 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10245 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 17915 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 17925 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 17935 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 20505 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 20505 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 23075 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+Stopped at time : 22786270 ns : File "E:/Trabalho/processamento.vhd" Line 96
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Mois‚s, on host DESKTOP-6MDHEG2.
+INFO:Security:15a - A feature for ISIM was found but is for an older version.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+License file does not support this version.
+Feature:       ISIM
+Application version > License version: 2013.10 > 2011.03
+License path:  C:/.Xilinx\xilinx13suite.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-21,126
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+at 10225 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10235 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10245 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 1.00us
+# run 1.00us
+# run all
+at 17915 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 17925 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 17935 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 20505 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 20505 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 23075 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+Stopped at time : 14846315 ns : File "E:/Trabalho/memoria.vhd" Line 53
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run all
+at 10225 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10235 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10245 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 17915 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 17925 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 17935 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 20505 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 20505 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 23075 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+Stopped at time : 18337155 ns : File "E:/Trabalho/processamentoTB.vhd" Line 104
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Mois‚s, on host DESKTOP-6MDHEG2.
+INFO:Security:15a - A feature for ISIM was found but is for an older version.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+License file does not support this version.
+Feature:       ISIM
+Application version > License version: 2013.10 > 2011.03
+License path:  C:/.Xilinx\xilinx13suite.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-21,126
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Mois‚s, on host DESKTOP-6MDHEG2.
+INFO:Security:15a - A feature for ISIM was found but is for an older version.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+License file does not support this version.
+Feature:       ISIM
+Application version > License version: 2013.10 > 2011.03
+License path:  C:/.Xilinx\xilinx13suite.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-21,126
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+at 10225 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10235 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10245 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Mois‚s, on host DESKTOP-6MDHEG2.
+INFO:Security:15a - A feature for ISIM was found but is for an older version.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+License file does not support this version.
+Feature:       ISIM
+Application version > License version: 2013.10 > 2011.03
+License path:  C:/.Xilinx\xilinx13suite.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-21,126
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+at 10225 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10235 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10245 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 1.00us
+# run 1.00us
+at 12815 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Mois‚s, on host DESKTOP-6MDHEG2.
+INFO:Security:15a - A feature for ISIM was found but is for an older version.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+License file does not support this version.
+Feature:       ISIM
+Application version > License version: 2013.10 > 2011.03
+License path:  C:/.Xilinx\xilinx13suite.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-21,126
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run all
+at 10225 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10235 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10245 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 12815 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+Stopped at time : 10655485 ns : File "E:/Trabalho/processamentoTB.vhd" Line 104
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Mois‚s, on host DESKTOP-6MDHEG2.
+INFO:Security:15a - A feature for ISIM was found but is for an older version.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+License file does not support this version.
+Feature:       ISIM
+Application version > License version: 2013.10 > 2011.03
+License path:  C:/.Xilinx\xilinx13suite.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-21,126
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run all
+at 10225 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10235 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10245 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 12815 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+Stopped at time : 7646210 ns : File "E:/Trabalho/processamento.vhd" Line 96
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Mois‚s, on host DESKTOP-6MDHEG2.
+INFO:Security:15a - A feature for ISIM was found but is for an older version.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+License file does not support this version.
+Feature:       ISIM
+Application version > License version: 2013.10 > 2011.03
+License path:  C:/.Xilinx\xilinx13suite.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-21,126
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+at 10225 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10235 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10245 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 1.00us
+# run 1.00us
+at 12815 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 1.00us
+# run 1.00us
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Mois‚s, on host DESKTOP-6MDHEG2.
+INFO:Security:15a - A feature for ISIM was found but is for an older version.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+License file does not support this version.
+Feature:       ISIM
+Application version > License version: 2013.10 > 2011.03
+License path:  C:/.Xilinx\xilinx13suite.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-21,126
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run all
+at 10225 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10235 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10245 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 12815 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+Stopped at time : 7810755 ns : File "E:/Trabalho/memoria.vhd" Line 53
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Mois‚s, on host DESKTOP-6MDHEG2.
+INFO:Security:15a - A feature for ISIM was found but is for an older version.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+License file does not support this version.
+Feature:       ISIM
+Application version > License version: 2013.10 > 2011.03
+License path:  C:/.Xilinx\xilinx13suite.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-21,126
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run 9.00us
+at 10225 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10235 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10245 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Mois‚s, on host DESKTOP-6MDHEG2.
+INFO:Security:15a - A feature for ISIM was found but is for an older version.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+License file does not support this version.
+Feature:       ISIM
+Application version > License version: 2013.10 > 2011.03
+License path:  C:/.Xilinx\xilinx13suite.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-21,126
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run all
+at 10225 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10235 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10245 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 12815 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+Stopped at time : 8237675 ns : File "E:/Trabalho/processamentoTB.vhd" Line 104
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Mois‚s, on host DESKTOP-6MDHEG2.
+INFO:Security:15a - A feature for ISIM was found but is for an older version.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+License file does not support this version.
+Feature:       ISIM
+Application version > License version: 2013.10 > 2011.03
+License path:  C:/.Xilinx\xilinx13suite.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-21,126
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 9.00us
+# run 9.00us
+at 10225 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10235 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10245 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Mois‚s, on host DESKTOP-6MDHEG2.
+INFO:Security:15a - A feature for ISIM was found but is for an older version.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+License file does not support this version.
+Feature:       ISIM
+Application version > License version: 2013.10 > 2011.03
+License path:  C:/.Xilinx\xilinx13suite.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-21,126
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 9.00us
+# run 9.00us
+at 10225 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10235 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10245 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 12815 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Mois‚s, on host DESKTOP-6MDHEG2.
+INFO:Security:15a - A feature for ISIM was found but is for an older version.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+License file does not support this version.
+Feature:       ISIM
+Application version > License version: 2013.10 > 2011.03
+License path:  C:/.Xilinx\xilinx13suite.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-21,126
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/EROSAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/DILATACAO/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /processamentotb/uut/GRADIENTE/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /processamentotb/uut/RAM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 9.00us
+# run 9.00us
+at 10225 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10235 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 10245 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 17915 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 17925 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 17935 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 9.00us
+at 20505 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 20505 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 23075 ns(1), Instance /processamentotb/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us
+# run 9.00us

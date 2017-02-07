@@ -1,0 +1,3 @@
+vhdl isim_temp "memoria.vhd"
+vhdl isim_temp "processamento.vhd"
+vhdl isim_temp "processamentoTB.vhd"

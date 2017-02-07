@@ -1,0 +1,3 @@
+vhdl work "memoria.vhd"
+vhdl work "processamento.vhd"
+vhdl work "processamentoTB.vhd"
